@@ -2,5 +2,41 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: ;
+  font-family: "Roboto", sans-serif;
+}
+
+.header,
+.hero-container,
+.footer {
+  background-color: #1F2937;
+}
+
+.header .logo {
+  color: #f9faf8;
+  font-size: 24px;
+  align-items: center;
+}
+
+.header li {
+  color: #E5E7EB;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+li {
+  list-style-type: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 0 120px;
+}
+
+.header-links {
+  display: flex;
+  align-items: center;
+  gap: 24px;
 }
