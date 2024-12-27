@@ -40,3 +40,23 @@ li {
   align-items: center;
   gap: 24px;
 }
+
+.hero-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+}
+
+.hero-left,
+.hero-right {
+  height: 200px;
+  width: 450px;
+}
+
+.hero-right {
+  background-color: #80838a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
