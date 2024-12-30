@@ -41,7 +41,8 @@ li {
   gap: 24px;
 }
 
-.hero-container {
+.hero-container,
+.image-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -82,4 +83,12 @@ button {
   padding: 6px 24px;
   border-radius: 6px;
   color: #f9faf8
+}
+
+.image-container {
+  flex-direction: column;
+}
+
+.images {
+  display: flex;
 }
