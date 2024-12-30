@@ -46,11 +46,12 @@ li {
   justify-content: center;
   align-items: center;
   height: 400px;
+  gap: 20px;
 }
 
 .hero-left,
 .hero-right {
-  height: 200px;
+  height: 220px;
   width: 450px;
 }
 
@@ -59,4 +60,26 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #E5E7EB
+}
+
+.hero-left h2 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+.hero-left p {
+  font-size: 18px;
+  color: #E5E7EB;
+  font-weight: 300;
+  margin-bottom: 12px;
+}
+
+button {
+  background-color: #3882F6;
+  border: none;
+  padding: 6px 24px;
+  border-radius: 6px;
+  color: #f9faf8
 }
