@@ -41,7 +41,8 @@ li {
   gap: 24px;
 }
 
-.hero-container {
+.hero-container,
+.quote-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -56,7 +57,7 @@ li {
 }
 
 .hero-right {
-  background-color: #80838a;
+  background-color: #a5a9b1;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -121,4 +122,29 @@ button {
   width: 140px;
   border: 3px solid #3882F6;
   border-radius: 12px;
+}
+
+.quote-container {
+  background-color: #E5E7EB;
+  flex-direction: column;
+}
+
+.quote,
+.quote-attribution {
+  width: 680px;
+}
+
+.quote {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  color: #1F2937;
+}
+
+.quote-attribution {
+  display: flex;
+  justify-content: end;
+  font-size: 20px;
+  font-weight: 800;
+  padding-right: 48px;
 }
